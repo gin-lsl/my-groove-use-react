@@ -1,0 +1,6 @@
+.todo-list-item {
+  text-align: left;
+  height: 30px;
+  line-height: 30px;
+  padding: 4px 10px;
+}

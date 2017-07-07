@@ -1,0 +1,79 @@
+.music-list-item {
+  display: flex;
+  height: 55px;
+  padding: 5px 10px;
+  background-color: #000000;
+  color: #FFFFFF;
+  justify-content: space-between;
+}
+.music-list-item:hover {
+  background-color: #333333;
+}
+.music-list-item .btns {
+  /*display: flex;*/
+  /*visibility: hidden;*/
+  display: none;
+  /*background: lightblue;*/
+  align-items: center;
+}
+.music-list-item:hover .btns {
+  /*visibility: visible;*/
+  display: flex;
+}
+.music-list-item:hover .btns .btn:hover {
+  background-color: #474747;
+}
+.music-list-item .music-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.music-list-item .right-wrap {
+  display: flex;
+  align-items: stretch;
+}
+.music-list-item .right-wrap .time {
+  align-self: center;
+  font-size: 13px;
+  color: #CCCCCC;
+}
+.music-list-item .right-wrap .btn,
+.music-list-item .right-wrap .time {
+
+}
+.music-list-item .btn {
+  display: flex;
+  width: 50px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.music-list-item .play {
+
+}
+.music-list-item .add {
+
+}
+.music-list-item .title {
+
+}
+.music-list-item b {
+  font-weight: 400;
+}
+.music-list-item .sub-title {
+  color: #BDBDBD;
+  cursor: default;
+  font-size: 14px;
+}
+.music-list-item .sub-title span:hover {
+  cursor: pointer;
+  color: #B5B5B5;
+}
+.music-list-item .singer {
+
+}
+.music-list-item .album {
+
+}

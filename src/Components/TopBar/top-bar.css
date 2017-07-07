@@ -1,0 +1,36 @@
+.top-bar {
+  display: flex;
+  display: -webkit-flex;
+  height: 50px;
+  line-height: 50px;
+  background-color: #171717;
+  color: #FFFFFF;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.top-bar-hamburger-btn,
+.top-bar-title,
+.top-bar-search {
+}
+.top-bar-hamburger-btn {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.top-bar-hamburger-btn:hover {
+  background-color: #484848;
+}
+.top-bar-search {
+  flex-grow: 1;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
