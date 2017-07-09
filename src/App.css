@@ -22,6 +22,11 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.app {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 50px 0 110px 0;
+}
 
 .dark-theme {
   background-color: #171717;

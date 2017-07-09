@@ -1,0 +1,6 @@
+.singer-cover {
+  display: inline-block;
+}
+.singer-cover .singer-name {
+  text-align: center;
+}

@@ -37,7 +37,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className='app'>
         <SplitView isSplitViewOpen={this.state.isSplitViewOpen} onSplitViewClose={this.handleHamburgerButtonClick} />
         <Router>
           <div>

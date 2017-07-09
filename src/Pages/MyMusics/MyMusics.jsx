@@ -1,8 +1,9 @@
 import React from 'react'
 import './my-musics.css'
 
-import MusicList from '../../Components/MusicList/MusicList'
 import { Tab } from '../../Components/Tab'
+import MusicList from '../../Components/MusicList/MusicList'
+import SingerList from '../../Components/SingerList/SingerList'
 
 class MyMusics extends React.Component {
   constructor() {
@@ -26,9 +27,10 @@ class MyMusics extends React.Component {
     ]
     return (
       <div>
-        {/*<MusicList />*/}
         <Tab tabs={tabs}>
           <MusicList />
+          <SingerList />
+          <div>TODO: 专辑页面</div>
         </Tab>
       </div>
     )
