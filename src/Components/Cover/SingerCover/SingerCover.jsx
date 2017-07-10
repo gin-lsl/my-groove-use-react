@@ -12,7 +12,7 @@ class SingerCover extends Component {
     return (
       <div className='singer-cover'>
         <Cover isCircle={true} size={140} />
-        <div className="singer-name">3L</div>
+        <div className="singer-name">{this.props.singerName}</div>
       </div>
     );
     

@@ -3,7 +3,7 @@ import './play-status-bar.css'
 
 import { MdFirstPage, MdLastPage, MdPlayArrow, MdPause } from 'react-icons/lib/md'
 
-import { verticalAlign } from '../../Utils/vars.js'
+import { verticalAlign, PUBLIC_URL } from '../../Utils/vars.js'
 import { convertToTime } from '../../Utils/funs.js'
 
 /**
@@ -54,7 +54,7 @@ class PlayStatusBarMusicActions extends React.Component {
       <div className='play-status-bar-music-actions'>
         <div className="bar-actions-left">
           <div className="img-wrap">
-            <img src="/cover01.jpg" alt="test" width='50' height='50' />
+            <img src={PUBLIC_URL + '/cover01.jpg'} alt="test" width='50' height='50' />
           </div>
           <div className='info-wrap'>
             <div className="title">花头台</div>

@@ -10,7 +10,7 @@ class AlbumCover extends Component {
   render() {
     return (
       <div>
-
+        
       </div>
     );
   }
