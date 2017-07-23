@@ -57,12 +57,15 @@
 }
 .play-status-bar-music-actions {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: stretch;
 }
 .bar-actions-left {
   display: flex;
   align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 .bar-actions-left .img-wrap {
   width: 50px;
@@ -87,6 +90,8 @@
   align-items: center;
   width: 150px;
   justify-content: space-around;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 .bar-actions-right .btn {
   height: 30px;
